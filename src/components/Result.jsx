@@ -11,7 +11,7 @@ export default function Result({ error, result, message, handleRestart }) {
           <p className="text-gray-600 mt-2">{result.health_advice}</p>
           <button
             onClick={handleRestart}
-            className="mt-4 bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-lg transition"
+            className="mt-4 bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-lg transition cursor-pointer"
           >
             Restart
           </button>
