@@ -59,7 +59,7 @@ export default function Form() {
     } catch (error) {
       console.error("❌ Error submitting form:", error);
       setError(true);
-      setMessage("Something went wrong. Please try again in 20 seconds.");
+      setMessage("Something went wrong. Please try again.");
     }
   };
 

@@ -20,6 +20,7 @@ export default function Result({ error, result, message, handleRestart }) {
       {error && (
         <div className="bg-white mt-6 p-6 shadow-lg rounded-2xl text-center max-w-md w-full">
           <p className="mb-3">{message}</p>
+          <p>(wait for 50s before retrying if this is your first try)</p>
           <button
             onClick={handleRestart}
             className="mt-4 bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-lg transition"
