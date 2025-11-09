@@ -82,6 +82,7 @@ export default function Form() {
           onSubmit={handleSubmit}
           className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-xl space-y-6"
         >
+          <p>first submission will take atleast 50s to show the result</p>
           <h2 className="text-xl font-semibold text-center text-gray-800 mb-10">
             Eating & Lifestyle Form
           </h2>
